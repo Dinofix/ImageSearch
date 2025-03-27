@@ -5,7 +5,7 @@ const Joi = require("joi");
 const fs = require("fs").promises;
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 const allowedOrigins = ["http://localhost:5173", "http://example.com"];
 
 app.use(express.json());
