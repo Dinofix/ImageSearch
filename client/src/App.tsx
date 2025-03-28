@@ -90,7 +90,7 @@ const App = () => {
   const fetchFavorites = async () => {
     try {
       const response = await axios.get<FavoriteImage[]>(
-        `https://imagesearch-2qy7.onrender.com/favorites/${user?.sub}`
+        `https://imagesearch-1l4f.onrender.com/favorites/${user?.sub}`
       );
       if (response.status !== 200) {
         throw new Error("Error fetching favorites");
@@ -129,7 +129,7 @@ const App = () => {
     try {
       const imageDataToSend = { ...imageData, user: user?.sub };
       const response = await axios.post(
-        "https://imagesearch-2qy7.onrender.com/favorite",
+        "https://imagesearch-1l4f.onrender.com/favorite",
         imageDataToSend,
         {
           headers: {
