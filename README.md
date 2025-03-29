@@ -13,12 +13,14 @@
 <br>VITE_AUTH0_CLIENT_ID=YOUR_AUTH0_CLIENT_ID
 <br>VITE_GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
 <br>VITE_GOOGLE_ID=YOUR_GOOGLE_ID
+<br>VITE_BACKEND_URL=YOUR_BACKEND_URL
 
 11. dont forget to customize .env with your:
   <br>AUTH0_DOMAIN
   <br>AUTH0_CLIENT_ID
   <br>GOOGLE_API_KEY
   <br>GOOGLE_ID
+  <br>BACKEND_URL
 
 12. go back to the terminal
 13. npm run dev
