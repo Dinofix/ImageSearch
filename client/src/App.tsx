@@ -137,6 +137,7 @@ const App = () => {
           },
         }
       );
+      console.log(response);
       if (response.status !== 201) {
         throw new Error("Failed to save favorite image");
       }
