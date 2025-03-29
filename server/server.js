@@ -6,7 +6,7 @@ const fs = require("fs").promises;
 
 const app = express();
 const port = process.env.PORT || 8080;
-const allowedOrigins = ["http://localhost:5173", "https://image-search-silk-delta.vercel.app"];
+const allowedOrigins = [process.env.FRONTEND_URL];
 
 app.use(express.json());
 app.use(
